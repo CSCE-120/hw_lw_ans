@@ -48,6 +48,6 @@ int main() {
     std::cout << turtle.GetPosition() << ", ";
     std::cout << turtle.GetClub() << std::endl;
     turtle.SetClub("Real Madrid");
-    turtle.setJerseyNumber(7);
+    turtle.setJerseyNumber(10);
     turtle.Print();
 }
