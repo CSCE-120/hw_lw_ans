@@ -23,7 +23,7 @@ int SumVector(const std::vector<int> v) {
 //       std::vector<T>.at(index) — Accesses the ith element of vector. Indexes start from 0.
 //       std::vector<T>.size() — Returns the integer number of elements in vector.
 //       std::vector<T>.empty() — Returns boolean of whether vector has elements or is empty.
-//       std::vector<T>.insert(index, value) — Inserts value at index of vector.
+//       std::vector<T>.insert(std::vector<T>.begin + index, value) — Inserts value at index of vector.
 //       std::vector<T>.erase(std::vector<T>.begin() + index) — Removes value at index of vector.
 
 int main() {
