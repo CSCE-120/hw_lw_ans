@@ -42,11 +42,12 @@ class Player {
 
 int main() {
     // Create player objects.
-    Player turtle("Kylian Mbappé", 10, "FW", "Paris Saint-Germain");
+    Player turtle("Kylian Mbappé", 7, "FW", "Paris Saint-Germain");
     std::cout << turtle.GetName() << ", ";
     std::cout << turtle.GetJerseyNumber() << ", ";
     std::cout << turtle.GetPosition() << ", ";
     std::cout << turtle.GetClub() << std::endl;
     turtle.SetClub("Real Madrid");
+    turtle.setJerseyNumber(7);
     turtle.Print();
 }
